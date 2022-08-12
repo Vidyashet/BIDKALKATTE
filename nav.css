@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+}
+
+.header {
+  background-color: white;
+  display: table;
+  width: 100%;
+  height: 100%;
+  padding: 8px 0px 8px 0px;
+}
+
+.logo {
+  display: table-cell;
+  line-height: 0%;
+  /* width: 20%; */
+  height: 100%;
+  float: left;
+  border-radius: 10px;
+  width: 100px;
+}
+
+.logo img {
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  height: 100%;
+  padding-left: 18%;
+  color: darkblue;
+  text-shadow: 3px 4px 4px black;
+  font-family: sans-serif;
+  padding-top: 5px;
+  font-size: 5.5vmin;
+}
+
+
+
+
+
+
+
+
+.topnav {
+  background-color: rgb(11, 95, 180);
+  font-family: Verdana, sans-serif;
+}
+
+.menulist ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+}
+
+li {
+  float: left;
+}
+
+.menulist li a {
+  font-size: 20px;
+  display: block;
+  width: 180px;
+  color: white;
+  text-align: center;
+  padding: 20px 0px 20px 0px;
+  text-decoration: none;
+}
+ul a:hover {
+  background-color: rgb(167, 14, 14);
+  color: white;
+}
+
+.tbtn {
+  float: right;
+  margin-right: 50px;
+}
+
+.toggle-button {
+  padding-top: 5px;
+  position: absolute;
+  top: .75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 21px;
+  height: 17px;
+}
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 10px;
+}
+
+
+
+@media (max-width:1100px) {
+ 
+  .menulist li a {
+    width: 150px;
+  }
+  header h1 {
+   font-size: 25px;
+  }
+  .div{
+    width: 100%;
+  }
+}
+@media (max-width:912px) {
+ 
+  .menulist li a {
+    width: 120px;
+  }
+  header h1 {
+   font-size: 25px;
+  }
+
+}
+
+@media (max-width:800px) {
+ 
+  .menulist li a {
+    width: 110px;
+  }
+  header h1 {
+   font-size: 25px;
+  }
+
+}
+@media (max-width:600px) {
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  body{
+    width: 100%;
+    margin: 0px;
+  }
+  .toggle-button {
+    display: flex;
+    padding-top: 5px;
+  }
+
+  .menulist {
+    width: 100%;
+    display: none;
+  }
+
+  .menulist ul {
+    background: linear-gradient(rgb(10, 66, 122),rgb(28, 132, 237));
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .menulist ul li {
+    text-align: center;
+  }
+
+  .menulist ul li a {
+    padding: .5rem 1rem;
+  }
+
+  .menulist.active {
+    display: flex;
+  }
+  ul a:hover {
+    background-color: rgb(167, 14, 14);
+    color: white;
+  }
+
+
+
+  header .h {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+
+  }
+
+  header h1 {
+    padding-top: 9px;
+    font-size: 14px;
+    padding-left: 20px;
+  }
+
+  .header .logo {
+    padding-top: 6px;
+    width: 50px;
+  } 
+}

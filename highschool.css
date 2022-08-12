@@ -1,0 +1,253 @@
+* {
+  margin: 0px;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.mySlides img {
+  height: 350px;
+}
+
+.mySlides {
+  width: 100%;
+}
+
+.img {
+  /* vertical-align: middle; */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 50%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  height: 50%;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: black;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+
+
+
+.divv {
+  background-color: rgba(255, 0, 0, 0.4);
+  /* background-color: rgb(255, 255, 128, 0.8); */
+}
+
+.div1 {
+  max-width: 100%;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  height: auto;
+  color: darkblue;
+}
+
+.div1 h2 {
+  padding-top: 10px;
+}
+
+.div2 h2 {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.div3 {
+  padding: 30px;
+}
+
+.det {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.det1 {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.div5 {
+  text-align: center;
+}
+
+.gal {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.f1 {
+  width: 100%;
+  height: 250px;
+}
+
+.f1 img {
+  width: 350px;
+  height: 250px;
+}
+
+
+
+
+
+.det2 {
+  text-align: center;
+}
+
+.ach {
+  padding: 30px;
+}
+.a1 {
+  display: flex;
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.a2 {
+  display: block;
+  width: 100%;
+  height: auto;
+  box-shadow: 10px 10px 5px grey;
+  background-color: white;
+  background-size: cover;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.c {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding-top: 20px;
+}
+
+.b1 {
+  width: 100%;
+  height: 100%;
+}
+
+.b1 img {
+  width: 300px;
+  height: 380px;
+}
+.ul ul{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+@media screen and (max-width:700px) {
+  .slideshow-container {
+    max-width: 100%;
+  }
+
+  .gal {
+    display: block;
+  }
+  .f1{
+    height: 300px;
+  }
+  .f1 img {
+    width: 90%;
+    height: 90%;
+  }
+
+
+  .c {
+    display: block;
+  }
+  .a1 ul {
+    text-align: left;
+  }
+  .b1 img{
+    width: 90%;
+    height: 90%;
+  }
+  
+}
+
+@media screen and (min-width:700px) and (max-width:1200px) {
+  
+  .f1{
+    width: 100%;
+    height: 100%;
+  }
+  .f1 img {
+    width: 90%;
+    height: 200px;
+  }
+  
+  .b1{
+    width: 100%;
+    height: 100%;
+  }
+  .b1 img{
+    width: 90%;
+    height: 90%;
+  }
+}

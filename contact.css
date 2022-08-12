@@ -1,0 +1,37 @@
+.contactus h2
+{
+  color: white;
+  /* text-shadow: 2px 2px 3px white; */
+}
+.contactus{
+  background-color: rgb(0, 0, 0,0.9);
+  color: white;
+  padding: 20px;
+  display: flex;
+}
+.contact {
+  /* border: 1px black solid; */
+  float: left;
+  width: 31%;
+  padding: 10px;
+  height: 100%;
+  /* text-align: center; */
+  
+}
+.contactus:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media (max-width:600px) {
+  .contactus{
+    display: block;
+  }
+  .contact{
+    width: auto;
+    height: auto;
+  }
+}
+
